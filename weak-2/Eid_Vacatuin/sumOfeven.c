@@ -5,7 +5,7 @@ int main()
     scanf("%d", &n);
     for (i = 0; i <= y; i++)
     {
-        int y
+        int y;
     }
 
     return 0;

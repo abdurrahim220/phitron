@@ -22,7 +22,7 @@ int main()
             b /= 10;
         } while (b != 0);
 
-        if (temp1 > temp2)
+        if (a > b || temp1 > temp2 || a > temp2)
         {
             cout << "Yes" << endl;
         }

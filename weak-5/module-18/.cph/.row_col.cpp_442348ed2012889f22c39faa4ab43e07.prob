@@ -1,0 +1,1 @@
+{"name":"Local: row_col","url":"/home/user/Desktop/Phitron/weak-5/module-18/row_col.cpp","tests":[{"id":1715100562297,"input":"3 3\n1 2 3\n4 5 6\n7 8 9\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/user/Desktop/Phitron/weak-5/module-18/row_col.cpp","group":"local","local":true}

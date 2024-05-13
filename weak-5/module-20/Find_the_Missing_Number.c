@@ -1,23 +1,36 @@
 #include <stdio.h>
+
 int main()
 {
-    // int row, col;
-    // scanf("%d %d", row, col);
-    int arr[4][4];
-    for (int i = 0; i < 4; i++)
+    int n;
+    scanf("%d", &n);
+
+    int arr[n][n];
+    int product[n];
+
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < 4; j++)
+        product[i] = 1;
+        for (int j = 0; j < n; j++)
         {
             scanf("%d", &arr[i][j]);
         }
-    }
-    for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
+        for (int j = 1; j < n; j++)
         {
-            printf("%d ", arr[i][j]);
+            product[i] *= arr[i][j];
         }
-        printf("\n");
+    }
+
+    for (int i = 0; i < n; i++)
+    {
+        if (arr[i][0] % product[i] == 0)
+        {
+            printf("%d\n", arr[i][0] / product[i]);
+        }
+        else
+        {
+            printf("-1\n");
+        }
     }
 
     return 0;

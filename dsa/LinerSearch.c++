@@ -9,7 +9,7 @@ int liner_search(int a[], int n, int x)
         if (a[i] == x)
         {
             return i;
-        }asdf
+        }
     }
     i = -1;
     return i;

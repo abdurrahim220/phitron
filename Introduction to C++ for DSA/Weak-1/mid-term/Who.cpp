@@ -4,7 +4,7 @@ struct Student
 {
 public:
     int id;
-    string name;
+    char name[100];
     char section;
     float totalMarks;
 };

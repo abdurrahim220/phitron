@@ -1,40 +1,29 @@
-#include <iostream>
-#include <string>
-#include <algorithm>
+#include <bits/stdc++.h>
+using namespace std;
 
 using namespace std;
 
 int main()
 {
-    string line;
+    const int MAX_LENGTH = 100000 + 5;
+    char line[MAX_LENGTH];
+    char result[MAX_LENGTH];
+    int result_index = 0;
 
-    while (getline(cin, line))
+    while (cin.getline(line, MAX_LENGTH))
     {
-        string word;
-        string result;
-
-        for (char c : line)
+        int len = strlen(line);
+        result_index = 0;
+        for (int i = 0; i < len; ++i)
         {
-            if (c == ' ')
+            if (line[i] != ' ')
             {
-                if (!word.empty())
-                {
-                    sort(word.begin(), word.end());
-                    result += word;
-                    word.clear();
-                }
-            }
-            else
-            {
-                word += c;
+                result[result_index++] = line[i];
             }
         }
+        result[result_index] = '\0';
 
-        if (!word.empty())
-        {
-            sort(word.begin(), word.end());
-            result += word;
-        }
+        sort(result, result + result_index);
 
         cout << result << endl;
     }

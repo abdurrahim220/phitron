@@ -1,0 +1,1 @@
+{"name":"Local: reverse","url":"/home/masuma/Desktop/phitron/Basic Data Structures/weak-3/Module-10.5/reverse.cpp","tests":[{"id":1720342437061,"input":"10 20 30 -1","output":"30 20 10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/masuma/Desktop/phitron/Basic Data Structures/weak-3/Module-10.5/reverse.cpp","group":"local","local":true}

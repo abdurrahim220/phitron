@@ -12,6 +12,7 @@ int main()
 
     vector<long long> prefixSum(n);
     prefixSum[0] = v[0];
+
     for (int i = 1; i < n; i++)
     {
         prefixSum[i] = prefixSum[i - 1] + v[i];

@@ -1,0 +1,1 @@
+{"name":"Local: dfs_on_2d","url":"/home/masuma/Desktop/phitron/Introduction to Algorithms/weak-1/dfs/dfs_on_2d.cpp","tests":[{"id":1728437541761,"input":"3 4\n....\n....\n....\n1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/masuma/Desktop/phitron/Introduction to Algorithms/weak-1/dfs/dfs_on_2d.cpp","group":"local","local":true}

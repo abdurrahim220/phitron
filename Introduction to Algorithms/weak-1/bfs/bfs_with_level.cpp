@@ -50,7 +50,7 @@ int main()
     bfs(src);
     for (int i = 1; i < n; i++)
     {
-        cout << i << " " << level[i] << endl;
+        cout << i << " ";
     }
     return 0;
 }

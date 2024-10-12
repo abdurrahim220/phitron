@@ -13,12 +13,6 @@ void bfs(int src)
         int par = q.front();
         q.pop();
         cout << par << endl;
-
-        // for (int i = 0; i < v[par].size(); i++)
-        // {
-        //     int child = v[par][i];
-        //     cout << child << endl;
-        // }
         
         for (int child : v[par])
         {
@@ -30,6 +24,7 @@ void bfs(int src)
         }
     }
 };
+
 int main()
 {
     int n, e;

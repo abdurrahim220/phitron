@@ -12,7 +12,7 @@ int main()
         s.insert(x);
     }
     // cout<<s.size()<<endl;
-    reverse(s.begin(), s.end());
+    // reverse(s.begin(), s.end());
     for (auto it = s.begin(); it != s.end(); it++)
     {
         cout << *it << " ";

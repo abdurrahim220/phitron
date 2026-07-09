@@ -1,2 +1,10 @@
 Competitive Companion (cph)
-https://opulent-funicular-9xw4ppqg6rrhp5px.github.dev/
+
+
+
+
+##Vector Built-in Functions
+
+https://docs.google.com/document/d/1-AlWED5nChiMx4iqH_E-dCTgZn2EmzpB1THvfw-L7pM/edit?tab=t.0
+
+

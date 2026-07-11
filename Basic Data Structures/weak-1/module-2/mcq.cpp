@@ -4,8 +4,8 @@ int main()
 {
     int a[4] = {12, 13, 14, 15};
     vector<int> v(a, a + 4);
-    
-        cout << v[3] << " ";
-    
+
+    cout << v[3] << " ";
+
     return 0;
 }
